@@ -1,8 +1,7 @@
-export default {
-    onLoad() {
-        console.log("TestPlugin loaded");
-    },
-    onUnload() {
-        console.log("TestPlugin unloaded");
-    }
+export const onLoad = () => {
+    console.log("TestPlugin loaded");
+};
+
+export const onUnload = () => {
+    console.log("TestPlugin unloaded");
 };
